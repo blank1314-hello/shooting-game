@@ -32,7 +32,7 @@ def gun():
 
     clock = pygame.time.Clock()
 
-    mouse_image = pygame.image.load("C:\Users\user\Desktop\folder\python\complete\image\mouse.png")
+    mouse_image = pygame.image.load("C:\Users\user\Desktop\folder\python\complete\image\gun.png")
     mouse_rect = mouse_image.get_rect(center=(25, 300))
 
     fire_image = pygame.image.load("C:\Users\user\Desktop\folder\python\complete\image\fire.png")
