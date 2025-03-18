@@ -32,28 +32,28 @@ def gun():
 
     clock = pygame.time.Clock()
 
-    mouse_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\gun.png")
+    mouse_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\gun.png")
     mouse_rect = mouse_image.get_rect(center=(25, 300))
 
-    fire_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire.png")
+    fire_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire.png")
     fire_rect = fire_image.get_rect()
     fire_rect.centerx = 1000
     fire_rect.bottom = 1000
 
-    fire2_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire2.png")
+    fire2_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire2.png")
     fire2_rect = fire2_image.get_rect()
     fire2_rect.centerx = 1000
     fire2_rect.bottom = 1000
 
-    fire3_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire3.png")
+    fire3_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\fire3.png")
     fire3_rect = fire3_image.get_rect()
     fire3_rect.centerx = 1000
     fire3_rect.bottom = 1000
 
-    cat_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\cat.png")
+    cat_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\cat.png")
     cat_rect = cat_image.get_rect(center=(850, random.randint(0, windows_height)))
 
-    banana_image = pygame.image.load("C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\banana.png")
+    banana_image = pygame.image.load(r"C:\Users\Administrator\Downloads\shooting-game-main\shooting-game-main\image\banana.png")
     banana_rect = banana_image.get_rect(center=(850, random.randint(0, windows_height)))
 
     system_font = pygame.font.SysFont('verdanai', 30)
